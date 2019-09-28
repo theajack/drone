@@ -1,0 +1,23 @@
+{
+    "name": "drone",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --config webpack-config/build.js",
+        "start": "webpack-dev-server --open --config webpack-config/dev.js"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "babel-loader": "^8.0.6",
+        "gulp": "^4.0.2",
+        "gulp-rename": "^1.4.0",
+        "recast": "^0.18.2",
+        "webpack": "^4.39.1",
+        "webpack-cli": "^3.3.6",
+        "webpack-dev-server": "^3.7.2"
+    }
+}
